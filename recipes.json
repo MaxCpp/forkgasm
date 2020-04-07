@@ -1,6 +1,144 @@
 {
 	"recipe": [
 		{
+			"name": "Tal’s Tahini “bread pudding”",
+			"id": "tahini-bread-pudding",
+			"description": "A delicious baked dessert that takes 5 minutes to make!",
+			"tag": [
+				"Dessert"
+			],
+			"image": "http://forkgasm.com/images/bread-pudding.png",
+			"ingredient": [
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "tahini"
+				},
+				{
+					"amount": "4",
+					"name": "eggs"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "baking powder"
+				},
+				{
+					"amount": "30",
+					"unit": "g",
+					"name": "honey"
+				},
+				{
+					"amount": "3",
+					"unit": "tbsp",
+					"name": "Sukrin Gold or brown sugar"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "maple extract"
+				},
+				{
+					"name": "cinammon",
+					"amount": "1",
+					"unit": "tsp"
+				},
+				{
+					"name": "sesame seeds for garnish"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"ingredient": []
+				}
+			],
+			"step": [
+				{
+					"description": "Beat all ingredients together really well in a blender."
+				},
+				{
+					"description": "Pour mixture in an oiled cake tray (we suggest sesame oil for the oiling) and sprinkle with sesame seeds."
+				},
+				{
+					"description": "Bake for 25-30 minutes at 345F (convection bake is better). Depending on your oven, you may want to turn it around (horizontally) after 15 minutes to ensure even baking."
+				},
+				{
+					"description": "Done, enjoy! We actually eat it with a spoon straight from the cake tray!"
+				}
+			],
+			"notes": "- If you are not avoiding carbs, you can substitute the maple extract with maple syrup.\n- Add two bananas and a good handful of walnuts to the mix and you have banana walnut bread!\n- Other ingredients we've tried (not all at once!): cardamom, Grand Marnier, vanilla extract. Feel free to experiment!",
+			"forked": "My friend Tal's \"tahini bread\" recipe."
+		},
+		{
+			"name": "Grand Marnier & Coffee Ice Cream 1",
+			"id": "grand-marnier-coffee-ice-cream-1",
+			"description": "Easy and decadent!111",
+			"tag": [
+				"Dessert",
+				"Ice Cream"
+			],
+			"ingredient": [
+				{
+					"amount": "4",
+					"unit": "cups",
+					"name": "heavy cream"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "icing sugar or substitite"
+				},
+				{
+					"amount": "4",
+					"name": "egg yolks"
+				},
+				{
+					"amount": "0.25",
+					"unit": "cup",
+					"name": "Grand Marnier"
+				},
+				{
+					"amount": "1",
+					"unit": "shot",
+					"name": "espresso"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "vanilla extract"
+				},
+				{
+					"name": "Cocoa nibs for garnish",
+					"preparation": "(Optional)"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"ingredient": []
+				}
+			],
+			"step": [
+				{
+					"description": "Beat the heavy cream with half of the icing sugar substitute (added slowly) until starting to get thick"
+				},
+				{
+					"description": "Beat the egg yolks with the remaining half of the icing sugar substitute.222"
+				},
+				{
+					"description": "Whisk the Grand Marnier, coffee, vanilla extract into the egg yolk mixture."
+				},
+				{
+					"description": "Whisk the egg yolk mixture into the heavy cream mixture"
+				},
+				{
+					"description": "Done! Add to your ice cream machine per manufacturer's instructions or freeze and stir every 30 minutes or so."
+				}
+			],
+			"notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+			"forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+			"image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+		},
+		{
 			"image": "http://forkgasm.com/images/carbonara.jpg",
 			"name": "Turnip Noodle Carbonara",
 			"id": "turnip-carbonara",
@@ -15,11 +153,11 @@
 					"name": "turnip noodles"
 				},
 				{
-					"amount": "3",
+					"amount": "6",
 					"name": "rashers bacon"
 				},
 				{
-					"amount": "5",
+					"amount": "6",
 					"name": "eggs"
 				},
 				{
@@ -52,7 +190,7 @@
 					"description": "Cut the bacon into lardons and sauté until it's lightly cooked."
 				},
 				{
-					"description": "While the bacon is cooking, separate the yolks from 4 of the eggs. Whisk 4 yolks, 1 egg, the grated parmesan, the cream, and salt and pepper."
+					"description": "While the bacon is cooking, separate the yolks from 4 of the eggs. Whisk the 4 yolks, 2 whole eggs, the grated parmesan, the cream, and salt and pepper."
 				},
 				{
 					"description": "If using garlic, add it once the bacon is starting to get cooked and saute for a few more minutes until fragrant"
@@ -61,39 +199,14 @@
 					"description": "Stir in turnip noodles until they are cooked through to desired doneness"
 				},
 				{
-					"description": "Turn the heat down to very low and stir in the egg mixture. Stir well until it cooks."
+					"description": "Turn the heat down to very low and stir in the egg mixture. Stir rapidly until it cooks, remove from heat."
 				},
 				{
 					"description": "Top with a little more ground pepper and serve!"
 				}
 			],
-			"notes": "Turnip noodles are far closer to spaghetti than zucchini noodles that lose their shape. You can get them pre-spiralized from Whole Foods, or make them yourself with a spiralizer.",
+			"notes": "Turnip noodles are far closer to spaghetti than zucchini noodles that lose their shape. You can get them pre-spiralized from Whole Foods, or make them yourself with a spiralizer. Summer squash or butternut squash noodles are other options.\nLardons are matchstick-sized pieces of bacon. ",
 			"forked": "[Zucchini Noodle Carbonara Recipe](https://skinnyms.com/zucchini-noodle-carbonara-recipe/)"
-		},
-		{
-			"name": "Spagetto",
-			"id": "spagetto",
-			"description": "Nyam nyam",
-			"tag": [],
-			"ingredient": [
-				{
-					"amount": "2",
-					"name": "Tomato"
-				}
-			],
-			"ingredientGroup": [
-				{
-					"ingredient": []
-				}
-			],
-			"step": [
-				{
-					"description": "Cut"
-				},
-				{
-					"description": "Hot water"
-				}
-			]
 		},
 		{
 			"image": "http://forkgasm.com/images/40813912_2213541505597183_7740637805202109577_n.jpg",
@@ -1383,23 +1496,23 @@
 							"name": "butter or ghee"
 						},
 						{
-							"amount": "A little",
-							"name": "coconut flour"
-						},
-						{
 							"name": "brown sugar substitute",
 							"amount": "3",
 							"unit": "tbsp"
 						},
 						{
 							"name": "vanilla extract",
-							"amount": "3",
+							"amount": "4",
 							"unit": "tbsp"
 						},
 						{
 							"name": "cinammon",
 							"amount": "1",
 							"unit": "tsp"
+						},
+						{
+							"amount": "A pinch",
+							"name": "salt"
 						}
 					]
 				},
@@ -1420,6 +1533,11 @@
 							"amount": "1",
 							"name": "lemon",
 							"preparation": "juiced"
+						},
+						{
+							"amount": "2",
+							"unit": "tbsp",
+							"name": "vanilla extract"
 						}
 					]
 				},
